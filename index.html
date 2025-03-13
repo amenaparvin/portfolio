@@ -4,20 +4,63 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web Developer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
+    
+    <header class="background-color">
         <nav>
-            <h3>Amena</h3>
+            <h3 class="nav-tittle">AMENA</h3>
             <ul>
                 <li><a href="">Portfolio</a></li>
                 <li><a href="">Blog</a></li>
-                <li><a href=""><button>Hire Me</button></a></li>
+                <li><a href=""><button class="btn-primary">Hire Me</button></a></li>
             </ul>
         </nav>
 
+        <div class="banner">
+            <div class="banner-content">
+                <h4 class="benner-greetings">Hi, I am</h4>
+            <h1 class="banner-tittle">Amena Parvin</h1>
+            <p class="banner-description">
+                Welcome to my portfolio! I specialize in building scalable and efficient web applications using modern technologies. With a strong foundation in backend development and growing expertise in frontend technologies, I create seamless digital experiences that help businesses thrive.
+            </p>
+            <button class="btn-primary">Download CV</button>
+            <button class="btn-primary">Contact</button>
+
+            </div>
+            <img class="banner-profile-pic" src="images/me_n.jpg" alt="">
+        </div>
+
     </header>
     <main>
+        <section class="about secondary-bg">
+            <h3 class="section-tittle">About Me</h3>
+            <p class="section-description">I'm a web developer with a passion for coding and problem-solving. With two years of experience. I have honed my skills in backend technologies like Node.js, Express.js, and databases such as MongoDB and MySQL. I am also exploring frontend frameworks like React and Vue.js to create dynamic and interactive user experiences.</p>
+
+            <div class="about-items">
+                <!-- .about-item*4>p.item-tittle+p.item-description -->
+                <div class="about-item">
+                    <p class="item-tittle">name</p>
+                    <p class="item-description">Amena Parvin</p>
+                </div>
+                <div class="about-item">
+                    <p class="item-tittle">email</p>
+                    <p class="item-description">amenaparvin2284@gmail.com</p>
+                </div>
+                <div class="about-item">
+                    <p class="item-tittle">date of birth</p>
+                    <p class="item-description">Feb 2, 1976</p>
+                </div>
+                <div class="about-item">
+                    <p class="item-tittle">From</p>
+                    <p class="item-description">Chattagram, Bangladesh</p>
+                </div>
+
+
+            </div>
+
+        </section>
 
     </main>
     <footer>
